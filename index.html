@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Pet Care</title>
+    <!-- Favicon-->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="image/favicon.ico"
+    />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    
+  </head>
+  <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+          <img
+            src="image/title1.jpg"
+            width="50"
+            height="50"
+            alt=""
+          />
+
+          <a class="navbar-brand" href="home.html">Pet Care</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownPortfolio"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Serivce</a
+                >
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownPortfolio"
+                >
+                  <li>
+                    <a class="dropdown-item" href="serivce.html"
+                      >Pet Supplies</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="serivce.html"
+                      >Pet Clinic List</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="serivce.html"
+                      >Adoption and Rescue</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="serivce.html"
+                      >Hosting services</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="serivce.html"
+                      >Pet grooming</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="serivce.html"
+                      >Pet teaching</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://bot.dialogflow.com/b24d28ad-43a7-41d3-890c-62665793b989">dialogflow</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clinic_address.html">Clinic Address</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Header-->
+    <header class="bg-dark py-5">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+                <div class="my-5 text-center text-xl-start">
+                <h1 class="display-5 fw-bolder text-white mb-2">
+                    Want to get new members?
+                </h1>
+                <p class="lead fw-normal text-white-50 mb-4">
+                    Find a new family member to accompany you!
+                </p>
+                <div
+                    class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start"
+                >
+                    <a
+                    class="btn btn-primary btn-lg px-4 me-sm-3"
+                    href="#"
+                    target="_blank"
+                    >Start adoption</a
+                    >
+                </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+                <img
+                class="img-fluid rounded-3 my-5" 
+                src="{% static 'assets/Image/title1.jpg' %}"
+                alt="..."
+                />
+            </div>
+            </div>
+        </div>
+        </header>
+    
+        <!-- Testimonial section-->
+        <div class="py-5 bg-light masthead">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 justify-content-center">
+            <div class="col-lg-10 col-xl-7">
+                <div class="text-center">
+                <div class="fs-4 mb-4 fst-italic">
+                    Support adoption instead of purchasing and save every life.
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    
+        <!-- Blog preview section-->
+        <section class="py-5">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+                <div class="text-center">
+                <h2 class="fw-bolder">Popular items</h2>
+                <p class="lead fw-normal text-muted mb-5">
+                    Furry kid's favorite
+                </p>
+                </div>
+            </div>
+            </div>
+            <div class="row gx-5">
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                <img
+                    class="card-img-top" 
+                    src="{% static 'assets/Image/紫色橡皮球.jpg' %}"
+                    alt="..."
+                />
+                <div class="card-body p-4">
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    News
+                    </div>
+                    <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">紫色橡皮球</h5></a
+                    >
+                    <p class="card-text mb-0">description something about item</p>
+                    <p class="card-text mb-0">HKD$ 120</p>
+                    <a class="btn btn-primary" href="#" target="_blank">Buy</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                <img
+                    class="card-img-top" 
+                    src="{% static 'assets/Image/綠色食物碗.jpg' %}"
+                    alt="..."
+                />
+                <div class="card-body p-4">
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    Media
+                    </div>
+                    <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">綠色食物碗</h5></a
+                    >
+                    <p class="card-text mb-0">description something about item</p>
+                    <p class="card-text mb-0">HKD$ 120</p>
+                    <a class="btn btn-primary" href="#" target="_blank">Buy</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                <img
+                    class="card-img-top" 
+                    src="{% static 'assets/Image/粉紅色咀嚼繩.jpg' %}"
+                    alt="..."
+                />
+                <div class="card-body p-4">
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    News
+                    </div>
+                    <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">粉紅色咀嚼繩</h5></a
+                    >
+                    <p class="card-text mb-0">description something about item</p>
+                    <p class="card-text mb-0">HKD$ 120</p>
+                    <a class="btn btn-primary" href="#" target="_blank">Buy</a>
+                </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                <img
+                    class="card-img-top" 
+                    src="{% static 'assets/Image/漢堡玩具.jpg' %}"
+                    alt="..."
+                />
+                <div class="card-body p-4">
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    News
+                    </div>
+                    <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">漢堡玩具</h5></a
+                    >
+                    <p class="card-text mb-0">description something about item</p>
+                    <p class="card-text mb-0">HKD$ 120</p>
+                    <a class="btn btn-primary" href="#" target="_blank">Buy</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                <img
+                    class="card-img-top" 
+                    src="{% static 'assets/Image/綠色食物碗.jpg' %}"
+                    alt="..."
+                />
+                <div class="card-body p-4">
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    Media
+                    </div>
+                    <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">綠色食物碗</h5></a
+                    >
+                    <p class="card-text mb-0">description something about item</p>
+                    <p class="card-text mb-0">HKD$ 120</p>
+                    <a class="btn btn-primary" href="#" target="_blank">Buy</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                <img
+                    class="card-img-top" 
+                    src="{% static 'assets/Image/貓咪的老鼠玩具.jpg' %}"
+                    alt="..."
+                />
+                <div class="card-body p-4">
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    News
+                    </div>
+                    <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">貓咪的老鼠玩具</h5></a
+                    >
+                    <p class="card-text mb-0">description something about item</p>
+                    <p class="card-text mb-0">HKD$ 120</p>
+                    <a class="btn btn-primary" href="#" target="_blank">Buy</a>
+                </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                <img
+                    class="card-img-top" 
+                    src="{% static 'assets/Image/紅色牽繩.jpg' %}"
+                    alt="..."
+                />
+                <div class="card-body p-4">
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    News
+                    </div>
+                    <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">紅色牽繩</h5></a
+                    >
+                    <p class="card-text mb-0">description something about item</p>
+                    <p class="card-text mb-0">HKD$ 120</p>
+                    <a class="btn btn-primary" href="#" target="_blank">Buy</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                <img
+                    class="card-img-top"  
+                    src="{% static 'assets/Image/貓咪玩具.jpg' %}"
+                    alt="..."
+                />
+                <div class="card-body p-4">
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    Media
+                    </div>
+                    <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">貓咪玩具</h5></a
+                    >
+                    <p class="card-text mb-0">description something about item</p>
+                    <p class="card-text mb-0">HKD$ 120</p>
+                    <a class="btn btn-primary" href="#" target="_blank">Buy</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                <img
+                    class="card-img-top" 
+                    src="{% static 'assets/Image/貓咪的鳳梨床.jpg' %}"
+                    alt="..."
+                />
+                <div class="card-body p-4">
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    News
+                    </div>
+                    <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">貓咪的鳳梨床</h5></a
+                    >
+                    <p class="card-text mb-0">description something about item</p>
+                    <p class="card-text mb-0">HKD$ 120</p>
+                    <a class="btn btn-primary" href="#" target="_blank">Buy</a>
+                </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                <img
+                    class="card-img-top" 
+                    src="{% static 'assets/Image/綠色咀嚼繩.jpg' %}"
+                    alt="..."
+                />
+                <div class="card-body p-4">
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    Media
+                    </div>
+                    <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">綠色咀嚼繩</h5></a
+                    >
+                    <p class="card-text mb-0">description something about item</p>
+                    <p class="card-text mb-0">HKD$ 120</p>
+                    <a class="btn btn-primary" href="#" target="_blank">Buy</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <div class="card h-100 shadow border-0">
+                <img
+                    class="card-img-top" 
+                    src="{% static 'assets/Image/狗狗玩具.jpg' %}"
+                    alt="..."
+                />
+                <div class="card-body p-4">
+                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    News
+                    </div>
+                    <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                    ><h5 class="card-title mb-3">狗狗玩具</h5></a
+                    >
+                    <p class="card-text mb-0">description something about item</p>
+                    <p class="card-text mb-0">HKD$ 120</p>
+                    <a class="btn btn-primary" href="#" target="_blank">Buy</a>
+                </div>
+                </div>
+            </div>
+            </div>
+            <!-- Call to action-->
+            <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+            <div
+                class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start"
+            >
+                <div class="mb-4 mb-xl-0">
+                <div class="fs-3 fw-bold text-white">
+                    New products, delivered to you.
+                </div>
+                <div class="text-white-50">
+                    Sign up for our newsletter for the latest updates.
+                </div>
+                </div>
+                <div class="ms-xl-4">
+                <div class="input-group mb-2">
+                    <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Email address..."
+                    aria-label="Email address..."
+                    aria-describedby="button-newsletter"
+                    />
+                    <button
+                    class="btn btn-outline-light"
+                    id="button-newsletter"
+                    type="button"
+                    >
+                    Sign up
+                    </button>
+                </div>
+                <div class="small text-white-50">
+                    We care about privacy, and will never share your data.
+                </div>
+                </div>
+            </div>
+            </aside>
+        </div>
+        </section>
+
+      <!-- chatbot by dialogflow-->
+      <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+      <df-messenger
+        location="asia-southeast1"
+        project-id="fypdemo-401606"
+        agent-id="bd6bf8b8-0a5f-41d5-a706-221404d69573"
+        language-code="en">
+        <df-messenger-chat-bubble
+         chat-title="Pet Care">
+        </df-messenger-chat-bubble>
+      </df-messenger>
+      <style>
+        df-messenger {
+          z-index: 999;
+          position: fixed;
+          bottom: 16px;
+          right: 16px;
+        }
+      </style>
+
+    </main>
+    <!-- Footer-->
+    <footer class="bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 text-white">
+              Copyright &copy; Your Website 2023
+            </div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Privacy</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Terms</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
